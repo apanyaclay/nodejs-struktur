@@ -18,17 +18,17 @@ type nul > server.js
 
 :: Inisialisasi Node.js project
 echo Menginisialisasi proyek Node.js...
-git init
-npm init -y
+call git init
+call npm init -y
 
 :: Menginstal Sequelize dan Sequelize-CLI
 echo Menginstal Sequelize dan Sequelize-CLI...
-npm install sequelize express bcryptjs cors dotenv jsonwebtoken nodemailer
-npm install sequelize-cli nodemon --save-dev
+call npm install sequelize express bcryptjs cors dotenv jsonwebtoken nodemailer
+call npm install sequelize-cli nodemon --save-dev
 
 :: Inisialisasi Sequelize
 echo Menginisialisasi Sequelize...
-npx sequelize-cli init
+call npx sequelize-cli init
 
 echo Proyek berhasil dibuat dan Sequelize berhasil diinisialisasi!
-pause
+cmd /k
