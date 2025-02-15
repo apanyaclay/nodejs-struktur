@@ -23,7 +23,7 @@ call npm init -y
 
 :: Menginstal Sequelize dan Sequelize-CLI
 echo Menginstal Sequelize dan Sequelize-CLI...
-call npm install sequelize express bcryptjs cors dotenv jsonwebtoken nodemailer
+call npm install sequelize mysql2 express bcryptjs cors dotenv jsonwebtoken nodemailer
 call npm install sequelize-cli nodemon --save-dev
 
 :: Inisialisasi Sequelize
